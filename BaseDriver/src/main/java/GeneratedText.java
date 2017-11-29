@@ -1,5 +1,5 @@
 public enum GeneratedText {
-    PAGE_MOBILE("package com.creditcards.${suite}.screens;\n" +
+    PAGE_MOBILE("package com.${suite}.screens;\n" +
             "\n" +
             "import driver.helpers.AbstractScreen;\n" +
             "import io.appium.java_client.AppiumDriver;\n" +
@@ -20,13 +20,13 @@ public enum GeneratedText {
             "            if (driver instanceof IOSDriver) {\n" +
             "                element = findElementWithTimeout(By.xpath(\"//XCUIElementTypeButton[@name=\\\"Skip\\\"]\"), 20);\n" +
             "            } else {\n" +
-            "                element = findElementWithTimeout(By.id(\"com.creditcards.scorereport:id/skip_button\"), 20);\n" +
+            "                element = findElementWithTimeout(By.id(\"id/skip_button\"), 20);\n" +
             "            }\n" +
             "            return element;\n" +
             "        }\n" +
             "    **/\n" +
             "}"),
-    PAGE_WEB("package com.creditcards.${suite}.pages;\n" +
+    PAGE_WEB("package com.${suite}.pages;\n" +
             "\n" +
             "import driver.helpers.PageObjectHelper;\n" +
             "import org.openqa.selenium.WebDriver;\n" +
@@ -48,7 +48,7 @@ public enum GeneratedText {
             "    **/\n" +
             "\n" +
             "    }"),
-    TEST_MOBILE("package com.creditcards.${suite};\n" +
+    TEST_MOBILE("package com.${suite};\n" +
             "import driver.BaseMobileTest;\n" + "import driver.helpers.WebDriverHelper;\n" +
             "import org.testng.annotations.BeforeClass;\n" +
             "public class ${class} extends BaseMobileTest \n{\n" + "WebDriverHelper helper;\n" +
@@ -56,7 +56,7 @@ public enum GeneratedText {
             "    public void setup() throws Exception {\n" +
             "        helper = new WebDriverHelper(appiumDriver);\n" +
             "}}"),
-    TEST_WEB("package com.creditcards.${suite};\n" + "import driver.BaseWebTest;\n" +
+    TEST_WEB("package com.${suite};\n" + "import driver.BaseWebTest;\n" +
             "import driver.helpers.WebDriverHelper;\n" +
             "import org.testng.annotations.BeforeClass;\n" +
             "public class ${class} extends BaseWebTest \n{" +
