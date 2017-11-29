@@ -4,7 +4,7 @@ import java.util.HashMap;
 import java.util.Map;
 
 public class Main {
-    public static String folder = System.getProperty("user.dir") + "//src//test//java//com//creditcards//";
+    public static String folder = System.getProperty("user.dir") + "//src//test//java//com//";
 
     /**
      * <p>
