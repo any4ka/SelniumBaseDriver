@@ -79,8 +79,6 @@ info AppiumDoctor
 info AppiumDoctor Everything looks good, bye!
 info AppiumDoctor
 ```
-#### iOS Application Installation
-https://creditcards.atlassian.net/wiki/spaces/MOBAPPS/pages/59777013/CupMaker
 
 #### Create / Start an Android Emulator
 **Note: Make sure that the emulator is running before the test runs.*
